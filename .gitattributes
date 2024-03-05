@@ -1,1 +1,2 @@
 hugging_face filter=lfs diff=lfs merge=lfs -text
+hugging_face/model.safetensors filter=lfs diff=lfs merge=lfs -text
