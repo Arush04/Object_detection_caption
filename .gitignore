@@ -1,0 +1,10 @@
+# Ignore all files in the run/detect folder
+run/detect/*
+# Add more image extensions if needed
+
+# Ignore all files in the uploads folder
+uploads/*
+
+# Ignore all files in the static folder
+static/*
+

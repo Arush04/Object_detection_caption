@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        /* Add CSS styles to resize the image */
+        img {
+            max-width: 80%; /* Set maximum width to fill container */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <h1>Result</h1>
+    
+    <h2>Caption:</h2>
+    <p>{{ caption }}</p>
+    
+    <h2>JSON Data:</h2>
+    <pre>{{ json_data }}</pre>
+    
+    <!-- Display the saved image -->
+    <h2>Saved Image:</h2>
+    <img src="{{ url_for('static', filename=image_name) }}" alt="Saved Image">
+</body>
+</html>
